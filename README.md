@@ -8,3 +8,4 @@ s = LEFT
 e = UP
 c = +BRUSH
 v = -BRUSH
+r = RESET
