@@ -22,6 +22,10 @@ while True:
             if e.dict['unicode'] == 'q':
                 pygame.quit()
                 sys.exit()
+            if e.dict['unicode'] == 'r':
+                D.fill(pygame.color.THECOLORS['white'])
+                x =0 ; y = 0
+                r =798 ; t = 0
             if e.dict['unicode'] == 'd':
                 x += 0;y += 1
                 t += 1 
