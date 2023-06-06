@@ -135,6 +135,15 @@ Endpoints
         
     }
 ~~~
+* If qurey is incorrect 
+~~~JSON
+    {
+        "status"    : 201,
+        "error"     : "InvalidQueryInput",
+        "error_msg" : "<error message>"
+        
+    }
+~~~
 ***
 ## /get_md
 > **method allowed = POST**
